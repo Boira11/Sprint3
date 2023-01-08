@@ -103,21 +103,7 @@ function search(id){
 function buy(id) {
     // 1. Loop for to the array products to get the item to add to cart
     // 2. Add found product to the cartList array
-    // let founded= false;
-    // i=0;
-    
-    // while (!founded && i< products.length){
-
-    //     if (i== products[i].id){
-    //         founded = true;
-    //     }
-
-    //     else {
-    //         i++;
-    //     }
-
         
-
     // }
     // console.log(i);
     let index = search(id);
@@ -183,9 +169,7 @@ function generateCart() {
     // Using the "cartlist" array that contains all the items in the shopping cart, 
     // generate the "cart" array that does not contain repeated items, instead each item of this array "cart" shows the quantity of product.
 
-    // ------------------------------PRUEBA C-------------------------------------------------------------------------
 
-    
 cart = [];
     for(let i=0;i<cartList.length;i++){
         let existe = false; 
@@ -212,13 +196,7 @@ cart = [];
 
     console.table(cart);
     applyPromotionsCart();
-
-
-
-
-    // ------------------------------FIN PRUEBA C---------------------------------------------------------------------
     
-
    
 }
 
@@ -248,45 +226,7 @@ function applyPromotionsCart() {
 function printCart() {
     // Fill the shopping cart modal manipulating the shopping cart dom
 
-// -------------------------------------------EXEMPLE CHARLIE ----------------------------------------------------------------------
-        // document.getElementById('cart_list').innerHTML = "";
-        // document.getElementById('total_price').innerHTML = "";  
-        // let lista = "";
 
-        // for (i = 0; i < cart.length; i++) {
-            
-        //     let p = "<tr>"
-        //         + "<th scope=\"row\">"+cart[i].name+"</th>"
-        //         + "<td align='right'>"+cart[i].price+" &euro;</td>"
-        //         + "<td align='center'>"+cart[i].quantity+"</td>" 
-        //         + "<td align='center'>"+cart[i].subtotal+" &euro;</td>";
-
-        //     if(isNaN(cart[i].subtotalWithDiscount)){
-        //         p = p + "<td align='right'><b>" +cart[i].subtotal+"  &euro;</b></td>";   
-        //     }
-        //     else{
-        //         p = p + "<td align='right' style='color:green'><b>" +cart[i].subtotalWithDiscount+"  &euro;</b></td>";   
-        //     }
-
-        //     lista = lista + p;
-        // }
-        
-        // let precioFinal = "";
-
-        //     let t = "<tr>"
-        //     + "<th scope=\"row\"><b>  "+cart.total+" &euro;</b></th>"
-        //     + "</tr>";
-            
-        //     precioFinal = precioFinal + t;
-         
-        
-        // document.getElementById('total_price').innerHTML = precioFinal;
-
-        // document.getElementById('cart_list').innerHTML = lista;
-        
-        // document.getElementById('count_product').innerHTML = cartList.length;
-        
-// -----------------------------------------------------------------------------------------------------------------
 
 
 }

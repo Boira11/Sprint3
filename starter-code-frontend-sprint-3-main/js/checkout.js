@@ -38,32 +38,32 @@ function validate() {
 		
 	 }
 
-	 // Validacion Email   
+	//Validacion Email   
 
-	//  if(fEmail.value == "" || fEmail.length<3 || !patternEmail.test(fEmail.value) ){
-	//  	error++;
-	//  }
+	 if(fEmail.value == "" || fEmail.length<3 || !patternEmail.test(fEmail.value) ){
+	 	error++;
+	 }
 
-	//  //Validacion Apellido
-	//  if( fLastN.value == "" || fLastN.length <3 || !patternLetters.test(fLastN.value)){
-	// 	error++;
-	//  }
+	 //Validacion Apellido
+	 if( fLastN.value == "" || fLastN.length <3 || !patternLetters.test(fLastN.value)){
+		error++;
+	 }
 
-	//  //Validacion Password
-	//  if( fPassword.value == "" || fPassword.length <3 || patternLetters.test(fPassword.value) || patternNumbers.test(fPassword.value)){
-	// 	error++;
-	//  }
+	 //Validacion Password
+	 if( fPassword.value == "" || fPassword.length <3 || patternLetters.test(fPassword.value) || patternNumbers.test(fPassword.value)){
+		error++;
+	 }
 	 
 
-	//  //Validacion Adress
-	//  if( fAddress.value == "" || fAddress.length <3 ){
-	// 	error++;
-	//  }
+	 //Validacion Adress
+	 if( fAddress.value == "" || fAddress.length <3 ){
+		error++;
+	 }
 
-	//   //Validacion phone
-	//   if( fPhone.value == "" || fPhone.length <3 || !patternNumbers.test(fPhone.value) ){
-	// 	error++;
-	//  }
+	  //Validacion phone
+	  if( fPhone.value == "" || fPhone.length <3 || !patternNumbers.test(fPhone.value) ){
+		error++;
+	 }
 
 	if(error>0){
 		alert("Error");
