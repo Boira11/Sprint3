@@ -1,0 +1,25 @@
+cartList -> Array origen
+cart -> Array destino
+
+bucle cartList :
+si no existeix : fem un push per afegir el objecte i posem quantity a 1
+si existeix : incrementem quantity +1
+
+for ( cartList){
+
+	buscar primer element i el guardem en una variable
+	
+	fem un bucle al array cart per saber si el element guardat esta en algun lloc del array cart
+
+	if (trobat){
+	
+	quantity +1	
+
+	}
+	else 
+	
+	push element guardat
+	quantity = 1
+	
+
+}
