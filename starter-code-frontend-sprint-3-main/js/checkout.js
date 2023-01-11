@@ -48,6 +48,7 @@ function validate() {
 		errorName.style.display = "block";
 		error++;
 		
+		
 	 }
 
 	 else{
