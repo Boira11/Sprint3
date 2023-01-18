@@ -131,6 +131,7 @@ var products = [
       generateCart();
       //llamada función que calcula el total del Carrito
       calculateTotal();
+      document.getElementById('count_product').innerHTML = cartList.length;
  
  
  }
@@ -270,7 +271,7 @@ var products = [
     
     document.getElementById('cart_list').innerHTML = itemsTable;
     document.getElementById('total_price').innerHTML = Math.round(finalPrice * 100) / 100;
-    document.getElementById('count_product').innerHTML = cartList.length;
+    
  
  }
 
